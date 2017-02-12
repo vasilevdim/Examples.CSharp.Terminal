@@ -7,7 +7,9 @@ namespace Module02
 		public static void Main(string[] args)
 		{
 			//Definirane na promenlivi
-			int a = 0,b = 0;int sum = 0;
+			int a = 0;
+			int b = 0;
+			int sum = 0;
 			//Sabirane na chisla
 			a = 5;
 			b = 10;
@@ -18,6 +20,7 @@ namespace Module02
 			Console.Write(b);
 			Console.Write("=");
 			Console.WriteLine(sum);
+			Console.ReadKey();
 
 		}
 	}

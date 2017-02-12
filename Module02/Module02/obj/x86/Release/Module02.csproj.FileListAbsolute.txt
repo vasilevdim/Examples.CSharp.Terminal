@@ -1,0 +1,2 @@
+C:\aula\Examples.CSharp.Terminal\Module02\Module02\bin\Release\Module02.exe
+C:\aula\Examples.CSharp.Terminal\Module02\Module02\obj\x86\Release\Module02.exe
