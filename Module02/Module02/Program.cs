@@ -10,6 +10,11 @@ namespace Module02
 			int a = 0;
 			int b = 0;
 			int sum = 0;
+			string program_name = "Module 2-examples";
+			string program_version = "1.0";
+			//For the program
+			Console.WriteLine(program_name);
+			Console.WriteLine("Version:" + program_version + "\n\n");
 			//Sabirane na chisla
 			a = 5;
 			b = 10;
@@ -21,6 +26,7 @@ namespace Module02
 			Console.Write("=");
 			Console.WriteLine(sum);
 			Console.ReadKey();
+		
 
 		}
 	}
