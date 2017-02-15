@@ -1,0 +1,2 @@
+C:\aula\Examples.CSharp.Terminal\Module02\ReadFromCommandLine\bin\Release\ReadFromCommandLine.exe
+C:\aula\Examples.CSharp.Terminal\Module02\ReadFromCommandLine\obj\x86\Release\ReadFromCommandLine.exe
