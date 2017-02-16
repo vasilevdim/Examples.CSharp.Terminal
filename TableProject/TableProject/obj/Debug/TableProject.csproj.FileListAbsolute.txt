@@ -1,0 +1,6 @@
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\bin\Debug\TableProject.exe.config
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\bin\Debug\TableProject.exe
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\bin\Debug\TableProject.pdb
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\obj\Debug\TableProject.csprojResolveAssemblyReference.cache
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\obj\Debug\TableProject.exe
+C:\aula\Examples.CSharp.Terminal\TableProject\TableProject\obj\Debug\TableProject.pdb
