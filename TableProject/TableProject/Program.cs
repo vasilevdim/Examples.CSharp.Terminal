@@ -6,24 +6,28 @@ using System.Threading.Tasks;
 
 namespace TableProject
 {
-    class Program
-    {
+    class Program { 
+        enum ti {ime=0, familia, godini };
+    
         static void Main(string[] args)
         {
             //Definirane na tabliza
             string[,] table= new string[2, 3];
             //Vavejdane na I red
-            table[0, 0] = "Martin";table[0, 1] = "Simeonov"; table[0, 2] = "31";
+            table[0, (int)ti.ime] = "Martin";table[0, (int)ti.familia] = "Simeonov"; table[0,(int) ti.godini] = "31";
 
 
 
             // Vavejdane na II red
-            table[1, 0] = "Simeon"; table[1, 1] = "Martinov"; table[1, 2] = "41";
+            table[1, (int)ti.ime] = "Simeon"; table[1,(int) ti.familia] = "Martinov"; table[1,(int) ti.godini] = "41";
             //Pechat
             Console.WriteLine("Koi red iskate da vidite:");
 
             int _index = Convert.ToInt32(Console.ReadLine()) -1;
-            Console.WriteLine((table[_index, 0])[0] + ". " + table[_index, 1] + ", " + table[_index, 2] + "g.");
+            Console.WriteLine(
+            (table[_index, (int)ti.ime])[0] + ". " + 
+             table[_index,(int) ti.familia] + ", " + 
+             table[_index,(int) ti.godini] + "g.");
         }
     }
 }
