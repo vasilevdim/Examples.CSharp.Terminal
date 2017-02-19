@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TableProject
 {
     class Program { 
-        enum ti {ime=0, familia, godini };
+        enum ti {ime, familia, godini };
     
         static void Main(string[] args)
         {
