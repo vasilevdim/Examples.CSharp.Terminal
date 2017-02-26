@@ -16,16 +16,41 @@ namespace BoolExplore2
             Console.Write("Please insert index:");
             _input = Console.ReadLine();
             bool _check01 = int.TryParse(_input, out _ui);
+            { 
 
 
-            if (_check01)
-            {
-                Console.WriteLine(_i[_ui - 1]);
 
                 _ui = (_ui <= _i.Length) ? _ui : 3;
                 _ui = (_ui > 0) ? _ui : 1;
 
+                switch (_ui) {
+                    case 1:
+                        {
+                            Console.Write("First array element is:");
+                            Console.WriteLine(_ui [_ui-1]);
+                            break;
+                        }
+                    case 2:
+                        {
+                            Console.Write("Second array element is:");
+                            Console.WriteLine(_ui [_ui-1]);
+                            break;
+                        }
+                    case 3:
+                        {
+                            Console.Write("Third array element is:");
+                            Console.WriteLine(_ui [_ui-1]);
+                            break;
+                        }
+                    default:
+                        {
+                            Console.Write("There is no array element for this index.\nTry index between 1 and 3.\n\n");
+                      break;
+                        }
+                }
+                //if (_check01)
 
+                //Console.WriteLine(_i[_ui - 1]);
 
             }
         }
